@@ -43,8 +43,8 @@ GLMARK2_BASE_DIR=$GLMARK2_BUILD_DIR/..
 echo GLMARK2_BASE_DIR="${GLMARK2_BASE_DIR}"
 echo GLMARK2_BUILD_DIR="${GLMARK2_BUILD_DIR}"
 
-# Android 16 is the minSdkVersion supported
-ANDROID_JAR=$ANDROID_SDK/platforms/android-16/android.jar
+# Android 30 is the minSdkVersion supported
+ANDROID_JAR=$ANDROID_SDK/platforms/android-30/android.jar
 
 function create_APK() {
     mkdir -p bin/lib obj
